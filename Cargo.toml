@@ -1,0 +1,11 @@
+[package]
+name = "solana-deposit-program"
+version = "0.1.0"
+description = "SOL deposit program"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.29.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
